@@ -17,3 +17,4 @@ from
 where
   -- limit to recent data for the purposes of this demo project
   creation_date >= timestamp("2021-02-01")
+  limit 10
